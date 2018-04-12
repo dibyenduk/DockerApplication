@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockerapplication:
+    image: dockerapplication
+    build:
+      context: .
+      dockerfile: DockerApplication/Dockerfile
